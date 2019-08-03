@@ -40,10 +40,7 @@ class _DicePageState extends State<DicePage> {
       
       child: Row(
         children: <Widget>[
-          Expanded(
-           // flex: 4,
-           //child: //Padding(
-            //padding: const EdgeInsets.all(16.0),
+          Expanded(           
             child: FlatButton(
               onPressed: (){    //void callback is set of (){}
                 dicechange();
@@ -51,11 +48,8 @@ class _DicePageState extends State<DicePage> {
               child: Image.asset('images/dice$leftDiceNumber.png'),
               ),
           ),       
-        //),
         
         Expanded(
-          //child: Padding(
-            //padding: const EdgeInsets.all(16.0),
             child: FlatButton(
               onPressed: (){
                 dicechange();
